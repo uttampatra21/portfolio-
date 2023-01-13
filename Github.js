@@ -10,28 +10,12 @@ repo.innerHTML = `
     <h1 class="title" id="">Github</h1>
     <div class="github_Profile">
         <div class="profile_logo">
-            <img class="github_img" src="https://avatars.githubusercontent.com/u/108145016?v=4" alt="">
+            <img class="github_img" src="${data.avatar_img}">
+            <img class="github_img" src="uttam.png" alt="uttam">
         </div>
         <div class="profile_detls">
-            <h1>${data.name}</h1>
-            <p>${data.bio}</p>
-            <ul>
-                <li><strong>${data.followers}</strong> <strong>Followers</strong></li>
-                <li><strong>${data.following}</strong> <strong>Following</strong></li>
-                <li><strong>${data.public_repos}</strong> <strong>Repositories</strong></li>
-            </ul>
+            <h1>Public Reposetories</h1>
             <div class="public_repo">
-                <a>loda</a>
-                <a>loda</a>
-                <a>loda</a>
-                <a>loda</a>
-                <a>loda</a>
-                <a>loda</a>
-                <a>loda</a>
-                <a>loda</a>
-                <a>loda</a>
-                <a>loda</a>
-                <a>loda</a>
                 <a>loda</a>
                 <a>loda</a>
                 <a>loda</a>

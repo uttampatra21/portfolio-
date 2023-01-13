@@ -29,11 +29,11 @@ project.innerHTML =`
             </div>
         </div>
         <div class="project_details">
-            <h2>Cera</h2>
+            <h2>Netflix</h2>
             <p>ectetur adipisicing elit. Molestias quaerat sed vero suscipit.</p>
             <p>e. Nulla nobis laborum eveniet harum similique temporibus, sequi dolorum hic error corrupti.</p>
             <h4>Features</h4>
-            <p>Responsive web design</p>
+            <p>Responsive web design, Letest movies</p>
             <div class="action">
                 <a href="#">Live</a>
                 <a href="#">Github</a>
@@ -49,7 +49,7 @@ project.innerHTML =`
             </div>
         </div>
         <div class="project_details">
-            <h2>Cera</h2>
+            <h2>Facebook</h2>
             <p> consectetur adipisicing elit. Molestias quaerat sed vero suscipit.</p>
             <p> icing elit. Nulla nobis laborum eveniet harum similique temporibus, sequi dolorum hic error corrupti.</p>
             <h4>Features</h4>
@@ -60,4 +60,5 @@ project.innerHTML =`
             </div>
         </div>
     </div>
+    <div class="more_project"><a href="#">More projects..</a></div>
 `;
