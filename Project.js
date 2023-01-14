@@ -16,7 +16,7 @@ project.innerHTML =`
             <p>Responsive web design</p>
             <div class="action">
                 <a href="#">Live</a>
-                <a href="#">Github</a>
+                <a href="https://github.com/uttampatra21/cera-ecommerce">Github</a>
             </div>
         </div>
     </div>
