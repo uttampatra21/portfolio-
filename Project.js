@@ -3,7 +3,7 @@ project.innerHTML =`
 <h1 class="title" id="">Projects</h1>
     <div class="projects">
         <div class="project_image">
-            <img src="/projectimg/cera.png">
+            <img src="https://media.licdn.com/dms/image/C4D22AQGGhaNpGY7ZpQ/feedshare-shrink_800/0/1670395934033?e=1676505600&v=beta&t=snklBVKfTFx_mGIu2y0ochH9mXuBBztpBbh2fNUzPC4">
             <div class="tech_stacks">
                 <span>Tech-stacks : HTML, CSS, Javascript</span>
             </div>
@@ -23,7 +23,7 @@ project.innerHTML =`
 
     <div class="projects">
         <div class="project_image">
-            <img src="/projectimg/NETFLIX.png">
+            <img src="https://media.licdn.com/dms/image/C5622AQEjC5MsGznoGA/feedshare-shrink_800/0/1672754487832?e=1676505600&v=beta&t=TO0VFTbUK8wjOPH5GgWNTqKlrwZyMra8B10hOzk8uPQ">
             <div class="tech_stacks">
                 <span>Tech-stacks : HTML, CSS, Javascript</span>
             </div>
@@ -43,7 +43,7 @@ project.innerHTML =`
 
     <div class="projects">
         <div class="project_image">
-            <img src="/projectimg/fb.png">
+            <img src="fb.png">
             <div class="tech_stacks">
                 <span>Tech-stacks : HTML, CSS, Javascript</span>
             </div>
