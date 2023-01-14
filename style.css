@@ -120,7 +120,7 @@ nav ul li a:hover{
    justify-content: center;
 }
 .background .img{
-    background-image: url(https://scontent.fccu9-1.fna.fbcdn.net/v/t39.30808-6/316218308_170661508978493_1654634967021752974_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=174925&_nc_ohc=iMdBLs3TuVQAX_sKj0j&_nc_ht=scontent.fccu9-1.fna&oh=00_AfAau-HZ-CCtmQFYZIT9aCCDrH4duvAUKk5bQf3LjHRfog&oe=63C4F374);
+    background-image: url(uttam2.jpeg);
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     width: 300px;
     height: 300px;
@@ -129,6 +129,7 @@ nav ul li a:hover{
     background-repeat: no-repeat;
     border-top-left-radius: 100px;
     border-bottom-right-radius: 100px; 
+    
 }
 /* !Skills */
 #Skills{
@@ -209,22 +210,6 @@ nav ul li a:hover{
     background-color:#ccc;
     color: #000;
 }
-.more_project{
-    text-align: right;
-    margin: 10px 10%;
-}
-.more_project a{
-    padding: 15px 15px;
-    background-color: #7562e0;
-    border: 1px solid  #7562e0;
-    color: #fff;
-    border-radius: 5px;
-}
-.more_project a:hover{
-    background-color: #fff;
-    color: rgb(46, 106, 209);
-    transition: 1s;
-}
 /* !Github */
 #repos{
     margin: 5% 0;
@@ -260,6 +245,8 @@ nav ul li a:hover{
 .public_repo a:hover{
     text-decoration: underline;
     color:#182c61;
+}
+.more_projects{
 }
 /* !Footer */
 footer{
@@ -304,6 +291,7 @@ footer{
     /* text-align: center; */
 }
 .left form div button{
+    cursor: pointer;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -324,7 +312,7 @@ footer{
 
 @media only screen and (max-width: 900px) {
     body {
-      /* background-color: red; */
+      /* background-color: rgb(255, 255, 255); */
     }
     nav{
         padding: 10px 5px;
@@ -352,7 +340,7 @@ footer{
         margin: 10px 0;
     }
     .about-text h2{
-        font-size: 1.8rem;
+        font-size: 1.5rem;
         margin: 8px 0;
     }
     .about-text p{
@@ -424,6 +412,7 @@ footer{
         justify-content: center;
     }
     .github_Profile{
+        margin: 20px 0;
         max-width: 80%;
     }
   }

@@ -60,5 +60,5 @@ project.innerHTML =`
             </div>
         </div>
     </div>
-    <div class="more_project"><a href="#">More projects..</a></div>
+    
 `;
