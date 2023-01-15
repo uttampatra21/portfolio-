@@ -286,22 +286,19 @@ footer{
 .left form div{
     display: flex;
     justify-content: center;
-    /* text-align: center; */
 }
-.left form div button{
-    cursor: pointer;
+.left form div{
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 10px;
-    width: 40%;
-    padding: 6px;
+    /* background: linear-gradient(to right, #b31a71, #b91874, #bf1577, #c61279, #cc0d7c, #d2097b, #d7047b, #dd007a, #e30076, #e90071, #ee056c, #f30c67); */
+}
+.left form div #submit{
+    width: 20%;
     font-size: 15px;
     font-weight: 600;
-    color: #fff;
+    /* color: #fff; */
     border: none;
-    background: linear-gradient(to right, #b31a71, #b91874, #bf1577, #c61279, #cc0d7c, #d2097b, #d7047b, #dd007a, #e30076, #e90071, #ee056c, #f30c67);
-}
+    }
 
 
 
