@@ -121,6 +121,7 @@ nav ul li a:hover{
    display: flex;
    align-items: center;
    justify-content: center;
+   transition: .5s;
 }
 .background .img{
     background-image: url(uttam2.jpeg);
@@ -197,7 +198,7 @@ nav ul li a:hover{
 }
 .project_details p {
     font-weight: 100;
-    color: rgb(106, 104, 104);
+    color: rgb(17, 17, 17);
     font-size: .95rem;
 }
 .action{

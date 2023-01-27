@@ -22,3 +22,15 @@ var typed = new Typed('.element', {
     backSpeed: 40,
     loop: true,
   });
+
+  const background = document.querySelector('.background');
+  const img = document.querySelector('.img');
+
+  const color = () => {
+      const random = Math.floor(Math.random() * 16777215 );
+      const randomColor = "#" + random.toString(16);
+      background.style.backgroundColor = randomColor;
+  }
+  img.addEventListener("click", ()=>{
+    color();
+  });
