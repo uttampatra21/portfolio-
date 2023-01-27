@@ -30,6 +30,9 @@ nav ul{
     display: flex;
     align-items: center
 }
+.close{
+    display: none;
+}
 nav svg{
     display: none;
     cursor: pointer;
@@ -312,8 +315,29 @@ footer{
     nav h1 a{
         font-size: 23px;
     }
+    .close{
+        display: block;
+        position: absolute;
+        top: 10px;
+        left: -20px;
+        color: #fff;
+    }
     nav ul{
-        display: none;
+        background-color:  #7562e0;
+        position: fixed;
+        top: 0;
+        right: 0;
+        right: -200px;
+        width: 200px;
+        height: 100vh;
+        padding-top: 50px;
+        flex-direction: column;
+        gap: 20px;
+        z-index: 2;
+        transition: .5s;
+    }nav ul li a{
+        color: #fff;
+        font-size: 18px;
     }
     nav svg{
         display: flex;
