@@ -133,7 +133,7 @@ nav ul li a:hover{
     background-repeat: no-repeat;
     border-top-left-radius: 100px;
     border-bottom-right-radius: 100px; 
-    
+    cursor: pointer;
 }
 /* !Skills */
 #Skills{
